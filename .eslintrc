@@ -1,0 +1,45 @@
+
+
+{
+    "extends": ["airbnb/base", "plugin:lodash/recommended"],
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "globals": {
+        "_": false
+    },
+    "rules": {
+        // "comma-dangle": [2, "never"],
+        "curly": [2, "all"],
+        "indent": [2, 2],
+        "spaced-comment": 1,
+        "max-len": 0,
+        "no-param-reassign": 0,
+        "arrow-body-style": 0,
+        "prefer-template": 0,
+        "consistent-return": 0,
+        "quote-props": 0,
+        "no-return-assign": 0,
+        "prefer-rest-params": 0,
+        "prefer-const": 0,
+        "array-callback-return": 0,
+        "no-unneeded-ternary": 0,
+        "no-useless-constructor": 0,
+        "no-underscore-dangle": ["error", { "allowAfterThis": true }],
+        "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+        "quotes": 0,
+        "no-case-declarations": 0,
+        "no-else-return": 0,
+        "lodash/prefer-lodash-method": 0,
+        "lodash/prefer-matches": 0,
+        "lodash/matches-shorthand": [2, "never"],
+        "lodash/matches-prop-shorthand": [2, "never"],
+        "lodash/prefer-constant": 0,
+        "lodash/path-style": 0
+    },
+    "plugins": [
+        "lodash"
+    ]
+}
